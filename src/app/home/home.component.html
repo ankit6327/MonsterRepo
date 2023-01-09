@@ -1,0 +1,15 @@
+
+  <div class="title">Monster Rolodex</div>
+
+  <div class="title">
+    <input type="text" #searchText />
+    <button (click)="onSearchTextChange(searchText.value)">Search</button>
+    </div>
+
+  <div class="parent">
+    <div class="card" *ngFor="let usr of user">
+    <div routerLink="/details/{{usr.id}}">
+      <app-card [userValue]=usr></app-card>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,26 @@
+.parent {
+    display: flex;
+    
+margin: auto;
+    justify-content: center;
+    flex-flow: wrap;
+    
+    /* grid-template-columns: repeat(3, 1fr); create a 3-column grid */
+    grid-gap: 20px; /* add a gap between the cards */
+  }
+  
+  .card {
+    width: 300px; /* set a fixed width for the cards */
+    height: 400px; /* set a fixed height for the cards */
+    border-radius: 5px; /* add rounded corners to the cards */
+    background-color: white; /* add a background color to the cards */
+  }
+
+  .title {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    margin: 20px 40px; 
+    font-size: xxx-large;
+  }
